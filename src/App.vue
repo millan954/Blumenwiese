@@ -25,7 +25,7 @@
     </template>
 
     <template v-if="dialogStep === 'party'">
-      <div style="color: white">yeeeeeeeeaaaah!</div>
+      <div style="color: white">this makes Milan happy!</div>
     </template>
   </dialog>
 </template>
