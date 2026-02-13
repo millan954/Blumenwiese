@@ -9,7 +9,7 @@
     <button class="close-button" @click="closeDialog">&times;</button>
 
     <template v-if="dialogStep === 'ask'">
-      <div style="color: white">Anja, will you be my valentine?</div>
+      <div style="color: white">Laura, will you be my valentine?</div>
       <div class="dialog-buttons">
         <button class="fall-button" @click="answerYes">Yes</button>
         <button class="fall-button" @click="answerNo">No</button>
@@ -280,17 +280,15 @@ const gridStyle = computed(() => ({
     position: relative;
 
     &::after {
-      @media (max-width: 767px) {
-        content: '';
-        position: absolute;
-        top: 4px;
-        right: 4px;
-        width: 14px;
-        height: 14px;
-        border-radius: 50%;
-        background: rgba(255, 100, 150, 0.9);
-        animation: pulse 1.5s ease-in-out infinite;
-      }
+      content: '';
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: rgba(255, 100, 150, 0.9);
+      animation: pulse 1.5s ease-in-out infinite;
     }
   }
 
